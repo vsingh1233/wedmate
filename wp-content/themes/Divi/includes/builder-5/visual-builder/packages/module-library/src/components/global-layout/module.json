@@ -1,0 +1,16 @@
+{
+  "name": "divi/global-layout",
+  "title": "Global Layout",
+  "titles": "Global Layouts",
+  "description": "Embeds a reusable layout that updates everywhere it appears when edited in one place.",
+  "keywords": [
+    "reusable layout",
+    "shared layout",
+    "synced",
+    "template",
+    "global section"
+  ],
+  "moduleIcon": "divi/global-layout",
+  "category": "structure",
+  "attributes": {}
+}

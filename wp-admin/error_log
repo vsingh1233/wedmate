@@ -1,0 +1,131 @@
+[28-Apr-2026 09:47:15 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home1/adsholic/public_html/wm/wp-content/themes/Divi/functions.php on line 9964
+[29-Apr-2026 06:42:34 UTC] PHP Parse error:  syntax error, unexpected token "endforeach" in /home1/adsholic/public_html/wm/wp-content/themes/Divi/functions.php on line 10536
+[06-May-2026 07:49:51 UTC] PHP Parse error:  Unclosed '{' on line 10836 in /home1/adsholic/public_html/wm/wp-content/themes/Divi/functions.php on line 10955
+[07-May-2026 07:36:17 UTC] PHP Warning:  Undefined array key "booking_timeline" in /home1/adsholic/public_html/wm/wp-content/themes/divi-child/functions.php on line 1827
+[09-May-2026 11:24:12 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 81920 bytes) in /home1/adsholic/public_html/wm/wp-includes/formatting.php on line 570
+[09-May-2026 11:47:22 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 45056 bytes) in /home1/adsholic/public_html/wm/wp-includes/class-wp-block-parser.php on line 204
+[11-May-2026 04:49:43 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home1/wedmate/public_html/wp-includes/post.php on line 7962
+[11-May-2026 04:49:43 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home1/wedmate/public_html/wp-includes/post.php on line 7963
+[11-May-2026 04:49:43 UTC] PHP Warning:  Attempt to read property "ID" on null in /home1/wedmate/public_html/wp-includes/post.php on line 7967
+[11-May-2026 04:49:43 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home1/wedmate/public_html/wp-includes/post.php on line 8229
+[11-May-2026 04:49:43 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home1/wedmate/public_html/wp-includes/theme.php on line 3656
+[11-May-2026 04:49:43 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home1/wedmate/public_html/wp-includes/theme.php on line 3882
+[11-May-2026 04:49:43 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home1/wedmate/public_html/wp-includes/post.php on line 5884
+[11-May-2026 04:49:43 UTC] PHP Warning:  Attempt to read property "ID" on null in /home1/wedmate/public_html/wp-includes/post.php on line 5884
+[11-May-2026 04:49:43 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home1/wedmate/public_html/wp-includes/post.php on line 5183
+[11-May-2026 04:49:43 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home1/wedmate/public_html/wp-content/themes/Divi/core/components/PageResource.php on line 878
+[11-May-2026 04:49:43 UTC] PHP Warning:  Trying to access array offset on null in /home1/wedmate/public_html/wp-admin/includes/post.php on line 2048
+[12-May-2026 07:46:34 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home1/wedmate/public_html/wp-includes/class-wp-image-editor-imagick.php on line 512
+[12-May-2026 07:49:50 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home1/wedmate/public_html/wp-includes/class-wp-image-editor-imagick.php on line 525
+[12-May-2026 07:50:54 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home1/wedmate/public_html/wp-includes/class-wp-image-editor-imagick.php on line 525
+[12-May-2026 07:51:57 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home1/wedmate/public_html/wp-includes/class-wp-image-editor-imagick.php on line 525
+[12-May-2026 13:28:25 UTC] PHP Warning:  Undefined array key "years" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2032
+[12-May-2026 13:28:25 UTC] PHP Warning:  Undefined array key "weddings" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2033
+[12-May-2026 13:28:25 UTC] PHP Warning:  Undefined array key "phone" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2034
+[12-May-2026 13:28:25 UTC] PHP Warning:  Undefined array key "email" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2035
+[12-May-2026 13:28:25 UTC] PHP Warning:  Undefined array key "services" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2037
+[12-May-2026 13:28:25 UTC] PHP Warning:  Undefined array key "website" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2038
+[12-May-2026 13:28:25 UTC] PHP Warning:  Undefined array key "booking_timeline" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2039
+[12-May-2026 13:28:25 UTC] PHP Warning:  Undefined array key "portfolio_gallery" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2040
+[12-May-2026 13:30:36 UTC] PHP Warning:  Undefined array key "years" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2032
+[12-May-2026 13:30:36 UTC] PHP Warning:  Undefined array key "weddings" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2033
+[12-May-2026 13:30:36 UTC] PHP Warning:  Undefined array key "phone" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2034
+[12-May-2026 13:30:36 UTC] PHP Warning:  Undefined array key "email" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2035
+[12-May-2026 13:30:36 UTC] PHP Warning:  Undefined array key "services" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2037
+[12-May-2026 13:30:36 UTC] PHP Warning:  Undefined array key "website" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2038
+[12-May-2026 13:30:36 UTC] PHP Warning:  Undefined array key "booking_timeline" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2039
+[12-May-2026 13:30:36 UTC] PHP Warning:  Undefined array key "portfolio_gallery" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2040
+[13-May-2026 04:45:09 UTC] PHP Warning:  Undefined array key "years" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2032
+[13-May-2026 04:45:09 UTC] PHP Warning:  Undefined array key "weddings" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2033
+[13-May-2026 04:45:09 UTC] PHP Warning:  Undefined array key "phone" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2034
+[13-May-2026 04:45:09 UTC] PHP Warning:  Undefined array key "email" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2035
+[13-May-2026 04:45:09 UTC] PHP Warning:  Undefined array key "services" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2037
+[13-May-2026 04:45:09 UTC] PHP Warning:  Undefined array key "website" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2038
+[13-May-2026 04:45:09 UTC] PHP Warning:  Undefined array key "booking_timeline" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2039
+[13-May-2026 04:45:09 UTC] PHP Warning:  Undefined array key "portfolio_gallery" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2040
+[13-May-2026 04:46:24 UTC] PHP Warning:  Undefined array key "years" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2032
+[13-May-2026 04:46:24 UTC] PHP Warning:  Undefined array key "weddings" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2033
+[13-May-2026 04:46:24 UTC] PHP Warning:  Undefined array key "phone" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2034
+[13-May-2026 04:46:24 UTC] PHP Warning:  Undefined array key "email" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2035
+[13-May-2026 04:46:24 UTC] PHP Warning:  Undefined array key "services" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2037
+[13-May-2026 04:46:24 UTC] PHP Warning:  Undefined array key "website" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2038
+[13-May-2026 04:46:24 UTC] PHP Warning:  Undefined array key "booking_timeline" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2039
+[13-May-2026 04:46:24 UTC] PHP Warning:  Undefined array key "portfolio_gallery" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2040
+[13-May-2026 05:51:54 UTC] PHP Warning:  Undefined array key "years" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2032
+[13-May-2026 05:51:54 UTC] PHP Warning:  Undefined array key "weddings" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2033
+[13-May-2026 05:51:54 UTC] PHP Warning:  Undefined array key "short_description" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2036
+[13-May-2026 05:51:54 UTC] PHP Warning:  Undefined array key "services" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2037
+[13-May-2026 05:51:54 UTC] PHP Warning:  Undefined array key "booking_timeline" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2039
+[13-May-2026 05:51:54 UTC] PHP Warning:  Undefined array key "portfolio_gallery" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2040
+[13-May-2026 12:06:57 UTC] PHP Warning:  Undefined array key "years" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2032
+[13-May-2026 12:06:57 UTC] PHP Warning:  Undefined array key "weddings" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2033
+[13-May-2026 12:06:57 UTC] PHP Warning:  Undefined array key "short_description" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2036
+[13-May-2026 12:06:57 UTC] PHP Warning:  Undefined array key "services" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2037
+[13-May-2026 12:06:57 UTC] PHP Warning:  Undefined array key "booking_timeline" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2039
+[13-May-2026 12:06:57 UTC] PHP Warning:  Undefined array key "portfolio_gallery" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2040
+[13-May-2026 12:19:10 UTC] PHP Warning:  Undefined array key "years" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2032
+[13-May-2026 12:19:10 UTC] PHP Warning:  Undefined array key "weddings" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2033
+[13-May-2026 12:19:10 UTC] PHP Warning:  Undefined array key "short_description" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2036
+[13-May-2026 12:19:10 UTC] PHP Warning:  Undefined array key "services" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2037
+[13-May-2026 12:19:10 UTC] PHP Warning:  Undefined array key "booking_timeline" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2039
+[13-May-2026 12:19:10 UTC] PHP Warning:  Undefined array key "portfolio_gallery" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2040
+[13-May-2026 12:19:54 UTC] PHP Warning:  Undefined array key "years" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2032
+[13-May-2026 12:19:54 UTC] PHP Warning:  Undefined array key "weddings" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2033
+[13-May-2026 12:19:54 UTC] PHP Warning:  Undefined array key "short_description" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2036
+[13-May-2026 12:19:54 UTC] PHP Warning:  Undefined array key "services" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2037
+[13-May-2026 12:19:54 UTC] PHP Warning:  Undefined array key "booking_timeline" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2039
+[13-May-2026 12:19:54 UTC] PHP Warning:  Undefined array key "portfolio_gallery" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2040
+[13-May-2026 12:32:23 UTC] PHP Warning:  Undefined array key "years" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2032
+[13-May-2026 12:32:23 UTC] PHP Warning:  Undefined array key "weddings" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2033
+[13-May-2026 12:32:23 UTC] PHP Warning:  Undefined array key "short_description" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2036
+[13-May-2026 12:32:23 UTC] PHP Warning:  Undefined array key "services" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2037
+[13-May-2026 12:32:23 UTC] PHP Warning:  Undefined array key "booking_timeline" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2039
+[13-May-2026 12:32:23 UTC] PHP Warning:  Undefined array key "portfolio_gallery" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2040
+[13-May-2026 12:32:36 UTC] PHP Warning:  Undefined array key "years" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2032
+[13-May-2026 12:32:36 UTC] PHP Warning:  Undefined array key "weddings" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2033
+[13-May-2026 12:32:36 UTC] PHP Warning:  Undefined array key "short_description" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2036
+[13-May-2026 12:32:36 UTC] PHP Warning:  Undefined array key "services" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2037
+[13-May-2026 12:32:36 UTC] PHP Warning:  Undefined array key "booking_timeline" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2039
+[13-May-2026 12:32:36 UTC] PHP Warning:  Undefined array key "portfolio_gallery" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2040
+[13-May-2026 12:33:16 UTC] PHP Warning:  Undefined array key "years" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2032
+[13-May-2026 12:33:16 UTC] PHP Warning:  Undefined array key "weddings" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2033
+[13-May-2026 12:33:16 UTC] PHP Warning:  Undefined array key "short_description" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2036
+[13-May-2026 12:33:16 UTC] PHP Warning:  Undefined array key "services" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2037
+[13-May-2026 12:33:16 UTC] PHP Warning:  Undefined array key "booking_timeline" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2039
+[13-May-2026 12:33:16 UTC] PHP Warning:  Undefined array key "portfolio_gallery" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2040
+[13-May-2026 12:36:03 UTC] PHP Warning:  Undefined array key "years" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2032
+[13-May-2026 12:36:03 UTC] PHP Warning:  Undefined array key "weddings" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2033
+[13-May-2026 12:36:03 UTC] PHP Warning:  Undefined array key "short_description" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2036
+[13-May-2026 12:36:03 UTC] PHP Warning:  Undefined array key "services" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2037
+[13-May-2026 12:36:03 UTC] PHP Warning:  Undefined array key "booking_timeline" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2039
+[13-May-2026 12:36:03 UTC] PHP Warning:  Undefined array key "portfolio_gallery" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2040
+[13-May-2026 12:37:49 UTC] PHP Warning:  Undefined array key "years" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2032
+[13-May-2026 12:37:49 UTC] PHP Warning:  Undefined array key "weddings" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2033
+[13-May-2026 12:37:49 UTC] PHP Warning:  Undefined array key "short_description" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2036
+[13-May-2026 12:37:49 UTC] PHP Warning:  Undefined array key "services" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2037
+[13-May-2026 12:37:49 UTC] PHP Warning:  Undefined array key "booking_timeline" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2039
+[13-May-2026 12:37:49 UTC] PHP Warning:  Undefined array key "portfolio_gallery" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2040
+[13-May-2026 12:39:34 UTC] PHP Warning:  Undefined array key "years" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2032
+[13-May-2026 12:39:34 UTC] PHP Warning:  Undefined array key "weddings" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2033
+[13-May-2026 12:39:34 UTC] PHP Warning:  Undefined array key "short_description" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2036
+[13-May-2026 12:39:34 UTC] PHP Warning:  Undefined array key "services" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2037
+[13-May-2026 12:39:34 UTC] PHP Warning:  Undefined array key "booking_timeline" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2039
+[13-May-2026 12:39:34 UTC] PHP Warning:  Undefined array key "portfolio_gallery" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2040
+[13-May-2026 12:40:28 UTC] PHP Warning:  Undefined array key "years" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2032
+[13-May-2026 12:40:28 UTC] PHP Warning:  Undefined array key "weddings" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2033
+[13-May-2026 12:40:28 UTC] PHP Warning:  Undefined array key "short_description" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2036
+[13-May-2026 12:40:28 UTC] PHP Warning:  Undefined array key "services" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2037
+[13-May-2026 12:40:28 UTC] PHP Warning:  Undefined array key "booking_timeline" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2039
+[13-May-2026 12:40:28 UTC] PHP Warning:  Undefined array key "portfolio_gallery" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2040
+[13-May-2026 12:41:39 UTC] PHP Warning:  Undefined array key "years" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2032
+[13-May-2026 12:41:39 UTC] PHP Warning:  Undefined array key "weddings" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2033
+[13-May-2026 12:41:39 UTC] PHP Warning:  Undefined array key "short_description" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2036
+[13-May-2026 12:41:39 UTC] PHP Warning:  Undefined array key "services" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2037
+[13-May-2026 12:41:39 UTC] PHP Warning:  Undefined array key "booking_timeline" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2039
+[13-May-2026 12:41:39 UTC] PHP Warning:  Undefined array key "portfolio_gallery" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2040
+[13-May-2026 12:42:43 UTC] PHP Warning:  Undefined array key "years" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2032
+[13-May-2026 12:42:43 UTC] PHP Warning:  Undefined array key "weddings" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2033
+[13-May-2026 12:42:43 UTC] PHP Warning:  Undefined array key "short_description" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2036
+[13-May-2026 12:42:43 UTC] PHP Warning:  Undefined array key "services" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2037
+[13-May-2026 12:42:43 UTC] PHP Warning:  Undefined array key "booking_timeline" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2039
+[13-May-2026 12:42:43 UTC] PHP Warning:  Undefined array key "portfolio_gallery" in /home1/wedmate/public_html/wp-content/themes/divi-child/functions.php on line 2040
