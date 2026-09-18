@@ -3,9 +3,34 @@ defined('ABSPATH') || exit;
 get_header();
 while (have_posts()): the_post();
 $listing_id = get_the_ID();
+$breadcrumb_city = null;
+$locations = get_the_terms($listing_id, 'location');
+if ($locations && !is_wp_error($locations)) {
+    $available_cities = [];
+    foreach (wml_cities() as $city) $available_cities[$city->term_id] = $city;
+    foreach ($locations as $location) {
+        $location_ids = array_merge([$location->term_id], get_ancestors($location->term_id, 'location', 'taxonomy'));
+        foreach ($location_ids as $location_id) {
+            if (isset($available_cities[$location_id])) {
+                $breadcrumb_city = $available_cities[$location_id];
+                break 2;
+            }
+        }
+    }
+}
+$terms = get_the_terms($listing_id, 'vendor_category');
 ?>
 <main id="main-content" class="wml-profile">
-    <nav class="wml-container wml-breadcrumb" aria-label="Breadcrumb"><a href="<?php echo esc_url(wml_directory_url()); ?>">Vendors</a><?php $terms = get_the_terms($listing_id,'vendor_category'); if ($terms && !is_wp_error($terms)): ?> / <a href="<?php echo esc_url(get_term_link($terms[0])); ?>"><?php echo esc_html($terms[0]->name); ?></a><?php endif; ?> / <?php the_title(); ?></nav>
+    <nav class="wml-container wml-breadcrumb" aria-label="Breadcrumb">
+        <a href="<?php echo esc_url(wml_directory_url()); ?>">Vendors</a>
+        <?php if ($breadcrumb_city): ?>
+            / <a href="<?php echo esc_url(wml_directory_url($breadcrumb_city->slug)); ?>"><?php echo esc_html($breadcrumb_city->name); ?></a>
+        <?php endif; ?>
+        <?php if ($terms && !is_wp_error($terms)): ?>
+            / <a href="<?php echo esc_url(wml_directory_url($breadcrumb_city ? $breadcrumb_city->slug : '', $terms[0]->slug)); ?>"><?php echo esc_html($terms[0]->name); ?></a>
+        <?php endif; ?>
+        / <span aria-current="page"><?php the_title(); ?></span>
+    </nav>
     <?php if (wml_is_venue($listing_id)): ?>
         <div class="venue-single"><?php get_template_part('template-parts/venue/hero'); get_template_part('template-parts/venue/content'); get_template_part('template-parts/venue/related'); ?></div>
     <?php else: ?>
