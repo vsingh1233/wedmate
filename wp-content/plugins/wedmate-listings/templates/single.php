@@ -3,21 +3,7 @@ defined('ABSPATH') || exit;
 get_header();
 while (have_posts()): the_post();
 $listing_id = get_the_ID();
-$breadcrumb_city = null;
-$locations = get_the_terms($listing_id, 'location');
-if ($locations && !is_wp_error($locations)) {
-    $available_cities = [];
-    foreach (wml_cities() as $city) $available_cities[$city->term_id] = $city;
-    foreach ($locations as $location) {
-        $location_ids = array_merge([$location->term_id], get_ancestors($location->term_id, 'location', 'taxonomy'));
-        foreach ($location_ids as $location_id) {
-            if (isset($available_cities[$location_id])) {
-                $breadcrumb_city = $available_cities[$location_id];
-                break 2;
-            }
-        }
-    }
-}
+$breadcrumb_city = wml_listing_city($listing_id);
 $terms = get_the_terms($listing_id, 'vendor_category');
 ?>
 <main id="main-content" class="wml-profile">

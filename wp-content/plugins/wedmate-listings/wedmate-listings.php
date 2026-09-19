@@ -30,6 +30,20 @@ add_action('after_setup_theme', function() {
 }, 99);
 
 function wml_is_venue($id) { return has_term('wedding-venues', 'vendor_category', $id); }
+function wml_listing_city($id) {
+    $locations = get_the_terms($id, 'location');
+    if (!$locations || is_wp_error($locations)) return null;
+    // Keep the canonical city stable when a listing has several locations.
+    usort($locations, fn($a, $b) => $a->term_id <=> $b->term_id);
+    $cities = [];
+    foreach (wml_cities() as $city) $cities[$city->term_id] = $city;
+    foreach ($locations as $location) {
+        foreach (array_merge([$location->term_id], get_ancestors($location->term_id, 'location', 'taxonomy')) as $term_id) {
+            if (isset($cities[$term_id])) return $cities[$term_id];
+        }
+    }
+    return null;
+}
 function wml_cities() {
     $terms = get_terms(['taxonomy' => 'location', 'hide_empty' => false]);
     $reserved = ['vendors','vendor','venue','venues','wedding-venues','stories','category','tag','author','page','feed','search','wp-json','wp-admin','all'];
@@ -49,6 +63,7 @@ function wml_routes() {
         add_rewrite_rule('^('.$cities.')/page/([0-9]+)/?$', 'index.php?wm_directory=1&wm_city=$matches[1]&paged=$matches[2]', 'top');
     }
     add_rewrite_rule('^(vendor|wedding-venues)/([^/]+)/?$', 'index.php?post_type=listings&name=$matches[2]', 'top');
+    add_rewrite_rule('^(vendor|wedding-venues)/([^/]+)/([^/]+)/?$', 'index.php?post_type=listings&name=$matches[3]', 'top');
     add_rewrite_rule('^venue/([^/]+)/?$', 'index.php?post_type=listings&name=$matches[1]', 'top');
     add_rewrite_rule('^vendors/(?!all/|page/)([^/]+)/([^/]+)/?$', 'index.php?vendor_category=$matches[1]&location_filter=$matches[2]', 'top');
     add_rewrite_rule('^venues/([^/]+)/?$', 'index.php?location=$matches[1]', 'top');
@@ -62,7 +77,13 @@ add_action('created_term', 'wml_schedule_rewrite', 10, 3);
 add_action('edited_term', 'wml_schedule_rewrite', 10, 3);
 add_action('delete_term', 'wml_schedule_rewrite', 10, 3);
 add_action('save_post_page', function() { update_option('wml_flush_routes',1,false); });
-add_action('init', function() { if (get_option('wml_flush_routes')) { flush_rewrite_rules(false); delete_option('wml_flush_routes'); } }, 99);
+add_action('init', function() {
+    if (get_option('wml_flush_routes') || get_option('wml_routes_version') !== '2') {
+        flush_rewrite_rules(false);
+        delete_option('wml_flush_routes');
+        update_option('wml_routes_version', '2', false);
+    }
+}, 99);
 
 function wml_directory_url($city = '', $category = '', $page = 1) {
     $path = $city ? $city : 'vendors';
@@ -72,7 +93,8 @@ function wml_directory_url($city = '', $category = '', $page = 1) {
 }
 add_filter('post_type_link', function($url, $post) {
     if ($post->post_type !== 'listings' || !$post->post_name) return $url;
-    return home_url('/'.(wml_is_venue($post->ID) ? 'wedding-venues' : 'vendor').'/'.$post->post_name.'/');
+    $city = wml_listing_city($post->ID);
+    return home_url('/'.(wml_is_venue($post->ID) ? 'wedding-venues' : 'vendor').'/'.($city ? $city->slug.'/' : '').$post->post_name.'/');
 }, 10, 2);
 add_filter('term_link', function($url, $term, $taxonomy) {
     if ($taxonomy === 'vendor_category') return wml_directory_url('', $term->slug);
